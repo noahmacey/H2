@@ -1,0 +1,180 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgb(0, 0, 0);
+    }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* universal */
+  
+  .skeleton {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 20px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #3c4847;
+  }
+  
+  h2 {
+      color: white
+  }
+  
+  h1 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: auto;
+  }
+  
+
+  h3 {
+    font-size: 24px;
+  }
+  
+  /* header */
+  
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: -8px 0px 30px -8px;
+    overflow: auto;
+    background: #3c4847;
+  }
+  
+  #logo {
+    float: left;
+    width: 300px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #3c4847;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 35px;
+    margin-right: 25px;
+  }
+  
+  nav a {
+    line-height: 18px;
+    padding-left: 15px;
+    margin-left: 15px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* main */
+  
+  #main-container {
+    padding-top: 130px;
+  }
+  
+  .main-section {
+    /* float: left; */
+    width: 100%;
+    max-width: 1100px;
+    padding: 30px;
+    /* margin: -20px 0px 20px 0px; */
+    margin: 10px auto;
+    background: #ffffff;
+    border-style: solid;
+    border-color: lightgray;
+  }
+
+  .prof-image {
+    float: left;
+    width: 370px;
+    height: 275px;
+    margin-top: 5px;
+    margin-right: 25px;
+  }
+
+#big-image {
+    width: 405px;
+    height: 370px;
+}
+
+  .sec-image {
+      margin: 2px;
+      width: 200px;
+      height: 170px;
+  }
+
+  #div-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #small-container {
+      display: flex;
+  }
+
+  /* sidebar */
+  
+  .sidebar {
+    float: right;
+    width: 100%;
+    max-width: 280px;
+    padding: 30px;
+    margin: -20px 15px 20px 5px;
+    background: #fff;
+    border: 3px solid lightgray;
+  }
+  
+  h3,
+  .sidebar h2 {
+    padding-bottom: 5px;
+    margin-left: 20px;
+    line-height: 15px;
+  }
+  
+  .git-hub {
+    width: 45px;
+    height: 45px;
+    margin: 8px 8px 0px 31px;
+  }
+
+  .linked-in {
+    width: 80px;
+    height: 45px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+  
+   /* footer */
+  
+   footer {
+    padding: 5px;
+    clear: both;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background: #3c4847;
+    margin: 0px -8px -8px -8px;
+  }
